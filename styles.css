@@ -1,0 +1,252 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0dca7;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #dda53d;
+    padding: 18px 5px ;
+    
+    
+}
+
+header nav ul {
+    display: flex;
+    justify-content: end;
+  list-style: none;
+
+}
+
+header nav ul li {
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 18px;
+}
+  
+
+  
+ 
+  
+ 
+  .container{
+    color: white;
+    
+    color: white;
+    text-align: center;
+padding: 120px 0px;  
+
+
+      background-size: cover; /* Ensures the image covers the entire area */
+      background-position: center; /* Centers the image */
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+      
+      
+  }
+      .hero-section {
+        background: url(./images/backgroung\ img.jpg) center center/cover no-repeat;
+        color: white;
+        
+        padding: 10px 0;
+        text-align: center;
+        background-position: center;
+        background-size: cover;
+      }
+      
+      
+    
+    
+
+  
+  
+  .hero-section h1 {
+    font-size: 3em;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  .section{
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 12px;
+  
+  }
+  .section-contact {
+    padding: 30px 10px;
+    text-align: left;
+    border-radius: 12px;
+    margin: 10px;
+   
+  }
+  .you-name{
+    border-radius: 10px;
+    height: 40px;
+    margin: 10px;
+     
+    width: 300px;
+  }
+  .you-email{
+    border-radius: 12px;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+  }
+  .you-mess{
+    border-radius: 12px;
+    height: 60px;
+    width: 300px;
+    margin: 10px;
+  }
+  .sub{
+    border-radius: 12px;
+    height:20px ;
+    width:150px;
+    margin: 10px;
+    
+
+  }
+  .section-About{
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+
+
+  h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .service-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .service-card {
+    background-color: rgb(223, 177, 27);
+    border-radius: 8px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.158);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  .service-card h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 1.2em;
+  }
+  
+  .food-container, .drink-container, .snack-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    
+    
+    
+
+  }
+  .perg{
+    font-weight: 600;
+  font-size: larger;
+    text-shadow: #f4f5f2;
+    
+  }
+  
+  .food-item, .drink-item, .snack-item {
+    display: block;
+    border-radius: 8px;
+    box-shadow: none;
+    padding: 20px;
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+    border: none;
+
+  }
+  
+  .food-item img, .drink-item img, .snack-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    display: ruby-base-container;
+  }
+  
+  .food-item h3, .drink-item h3, .snack-item h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .food-item p, .drink-item p, .snack-item p {
+    font-size: 1.2em;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer .social-links {
+    margin-bottom: 20px;
+  }
+  
+  footer .social-icon {
+    color: white;
+    font-size: 2em;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  footer .social-icon:hover {
+    color: #28a745;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
+  @media (max-width: 768px) {
+    .service-container, .food-container, .drink-container, .snack-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card, .food-item, .drink-item, .snack-item {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .hero-section h1 {
+      font-size: 2.5em;
+    }
+  
+    .hero-section p {
+      font-size: 1.2em;
+    }
+  }
+  
