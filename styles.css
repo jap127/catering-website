@@ -59,7 +59,7 @@ padding: 120px 0px;
       
   }
       .hero-section {
-        background: url(./images/backgroung\ img.jpg) center center/cover no-repeat;
+        background: url(backgroung\ img.jpg) center center/cover no-repeat;
         color: white;
         
         padding: 10px 0;
